@@ -1,6 +1,6 @@
 global:
-  ingressSubdomain: <dev-cluster-name>.us-south.containers.appdomain.cloud
-  tlsSecretName: <dev-cluster-name>
+  ingressSubdomain: workshop-team-2ab66b053c14936810608de9a1deac9c-0000.eu-gb.containers.appdomain.cloud
+  tlsSecretName: workshop-team-2ab66b053c14936810608de9a1deac9c-0000
 
 # replace <app-chart-name> with the value given in requirements.yaml
 node-react-yks:
@@ -16,4 +16,4 @@ node-react-yks:
   # For Kubernetes set ingress.enabled=true
   ingress:
     enabled: false
-    tlsSecretName: <dev-cluster-name>
+    tlsSecretName: workshop-team-2ab66b053c14936810608de9a1deac9c-0000
