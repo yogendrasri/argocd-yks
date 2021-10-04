@@ -1,4 +1,4 @@
 dependencies:
-- name: <app-chart-name>
-  version: <helm chart version>
-  repository: https://<helm-repository-location>
+- name: node-react-yks
+  version: 0.0.2
+  repository: https://artifactory-tools.workshop-team-2ab66b053c14936810608de9a1deac9c-0000.eu-gb.containers.appdomain.cloud/artifactory/generic-local/
