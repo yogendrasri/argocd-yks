@@ -1,0 +1,4 @@
+apiVersion: v2
+version: 0.1.0
+name: test-cg-yks
+description: Chart to configure ArgoCD with the test-cg-yks project and its applications
