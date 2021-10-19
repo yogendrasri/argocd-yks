@@ -5,7 +5,7 @@ global:
 # replace <app-chart-name> with the value given in requirements.yaml
 node-react-yks:
   # provides values from the values.yaml in the <app-chart-name> helm chart
-  replicaCount: 4
+  replicaCount: 5
   
   # For OpenShift set route.enabled=true
   # For Kubernetes set route.enabled=false
